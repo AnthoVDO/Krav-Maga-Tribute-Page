@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    margin: 5px auto;
+    padding: 1%;
+}
+
+body {
+    background-color: #1d1f26;
+}
+
+a:visited {
+    color: #d04b1f;
+}
+
+a:hover {
+    color: #f7b315;
+}
+
+
+/* Top Main */
+
+#main {
+    margin: auto;
+    padding: 0px;
+    max-width: 1070px;
+    color: #d0d0d0;
+}
+
+#top {
+    background-color: #333740;
+    padding: 20px 0 20px 0;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #383329;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 50px auto;
+}
+
+#img-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#image {
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/* tribute info */
+
+#tribute-info {
+    background-color: #474D5A;
+    border-radius: 30px;
+}
+
+#sportImg {
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px 0 100px 0;
+}
+
+#sportImg div img {
+    width: auto;
+    margin: 20px;
+    height: 150px;
+}
+
+#tribute-info .clearFlex {
+    margin-top: 50px;
+}
+
+blockquote {
+    margin: 20px;
+}
+
+#specialQuote {
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+cite {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+#tribute-info h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+@media (max-width:880px) {
+    #image {
+        max-width: 350px;
+    }
+    #sportImg div img {
+        height: 120px;
+        margin: 0px;
+    }
+    #tribute-info .clearFlex {
+        margin-top: 30px;
+    }
+    #sportImg {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 770px) {
+    #image {
+        max-width: 300px;
+    }
+    #sportImg div img {
+        height: 100px;
+        margin: 0px;
+    }
+    #sportImg {
+        margin: 0px;
+    }
+    #tribute-info .clearFlex {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    #image {
+        max-width: 250px;
+    }
+    #sportImg div img {
+        height: 80px;
+    }
+    #tribute-info .clearFlex {
+        margin-top: 0px;
+    }
+    p {
+        margin: 0px;
+    }
+    #sportImg div img {
+        margin: 10px;
+    }
+    blockquote {
+        margin: 10px;
+    }
+    #specialQuote {
+        font-family: 'Yellowtail', cursive;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 570px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    #sportImg div img {
+        height: 60px;
+    }
+    #sportImg div img {
+        margin: 5px;
+    }
+    #tribute-info .clearFlex {
+        margin-top: -40px;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    #specialQuote {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 470px) {
+    body {
+        text-align: justify;
+    }
+    #sportImg div img {
+        height: 40px;
+    }
+    #sportImg div img {
+        margin: 0px;
+    }
+    #tribute-info .clearFlex {
+        margin-top: -50px;
+    }
+    #specialQuote {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 370px) {
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 0.7em;
+    }
+    #image {
+        max-width: 150px;
+    }
+    #sportImg div {
+        height: 30px;
+        font-size: 0.5em;
+    }
+    p {
+        margin: 7px;
+        font-size: 0.8em;
+    }
+    figcaption {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 0.7em;
+    }
+    #tribute-info .clearFlex {
+        margin-top: -90px;
+    }
+    h3 {
+        font-size: 0.8em;
+    }
+    #specialQuote {
+        font-size: 1.1em;
+    }
+}
